@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd" >
+<web-app>
+    <servlet>
+        <servlet-name>HelloServlet</servlet-name>
+        <servlet-class>local.hal.sa41.webjava.chap1.HelloServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>InitServlet</servlet-name>
+        <servlet-class>local.hal.sa41.webjava.chap1.InitServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Asgmt02</servlet-name>
+        <servlet-class>local.hal.sa41.webjava.chap1.Asgmt02</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>HelloServlet</servlet-name>
+        <url-pattern>/Hello</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>InitServlet</servlet-name>
+        <url-pattern>/Init</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Asgmt02</servlet-name>
+        <url-pattern>/asgmt02/Asgmt02</url-pattern>
+    </servlet-mapping>
+</web-app>

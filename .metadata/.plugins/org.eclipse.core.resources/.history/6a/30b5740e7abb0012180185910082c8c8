@@ -1,0 +1,50 @@
+public class SA41Ex05_FillTheBathTub{
+	public static void main(String[] args){
+
+		SA41Ex05_Bathtub tabA = new SA41Ex05_Bathtub();
+		SA41Ex05_Bathtub tabB = new SA41Ex05_Bathtub();
+		SA41Ex05_Bathtub tabC = new SA41Ex05_Bathtub();
+
+		tabA.setVolume(150);
+		tabB.setVolume(210);
+		tabC.setVolume(240);
+
+		tabA.setSupply(13);
+		tabB.setSupply(23);
+		tabC.setSupply(15);
+
+		tabA.setElapsedMinutes(0);
+		tabB.setElapsedMinutes(0);
+		tabC.setElapsedMinutes(0);
+
+		int minuts = 0;
+		while(!(tabA.isFull() && tabB.isFull() && tabC.isFull()){
+			
+			System.out.println("-----") + (++minuts) + "minuts";minuts++;
+
+			if(tabA.isFull()){
+				System.out.println("A is Full");
+			}else{
+				System.out.println("A is not Full" + 
+					"...:" + tabA.getRemainingTime() +"minuts"
+				 );
+			}
+
+			if(tabB.isFull()){
+				System.out.println("B is Full");
+			}else{
+				System.out.println("B is not Full" + 
+					"...:" + tabB.getRemainingTime() +"minuts"
+				 );
+			}
+
+			if(tabB.isFull()){
+				System.out.println("B is Full");
+			}else{
+				System.out.println("B is not Full" + 
+					"...:" + tabB.getRemainingTime() +"minuts"
+				 );
+			}
+		}
+	}
+}

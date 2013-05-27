@@ -1,0 +1,11 @@
+/**
+ * 
+ */
+package local.hal.sa41.webjava.chap1;
+
+import javax.servlet.http.HttpServlet;
+
+
+public class HelloServlet extends HttpServlet {
+
+}

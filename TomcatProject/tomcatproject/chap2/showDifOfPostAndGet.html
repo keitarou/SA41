@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>POSTとGET</title>
+	</head>
+	<body>
+		<p>
+			下のフォームをサブミットして遊んでみよう
+		</p>
+		<form action="/TomcatProject/chap2/DifOfPostAndGet" method="get">
+			身長：<input type="text" name="height" id="getHeight"><br />
+			体重：<input type="text" name="weight" id="getWeight"><br />
+			<input type="submit" value="計算する">
+		</form>
+		<form action="/TomcatProject/chap2/DifOfPostAndGet" method="post">
+			身長：<input type="text" name="height" id="postHeight"><br />
+			体重：<input type="text" name="weight" id="postWeight"><br />
+			<input type="submit" value="計算する">
+		</form>
+	</body>
+</html>

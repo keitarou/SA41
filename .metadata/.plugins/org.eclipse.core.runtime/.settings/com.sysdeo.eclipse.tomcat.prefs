@@ -1,0 +1,8 @@
+computeSourcePath=true
+contextsDir=/Applications/tomcat-7.0.39/conf/Catalina/localhost
+eclipse.preferences.version=1
+fixTomcatHomeBug=fixed
+managerUrl=http\://localhost\:8080/manager
+tomcatConfigFile=/Applications/tomcat-7.0.39/conf/server.xml
+tomcatDir=/Applications/tomcat-7.0.39
+tomcatVersion=tomcatV7
